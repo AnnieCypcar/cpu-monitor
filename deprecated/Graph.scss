@@ -1,0 +1,33 @@
+.graph-container {
+    margin: auto 0;
+    width: 1200px;
+    height: 600px;
+    .x-axis {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 60px;
+        .activity-bar {
+            display: inline-block;
+        vertical-align: bottom;
+            width: 5px;
+            background-color: #ccc;
+        }
+        
+    }
+    .time-and-load {
+        display: inline-block;
+        width: 0;
+        overflow: visible;
+        margin-left: -10px;
+        font-size: 14px;
+        .details {
+            width: 65px;
+            &.time-span {
+                color: #fff;
+            }
+            &.load-span {
+                color: #aba;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cpu-monitor",
+  "version": "0.0.0",
+  "description": "A monitoring system and dashboard for your computer's cpu",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnieCypcar/cpu-monitor.git"
+  },
+  "keywords": [
+    "cpu",
+    "monitor",
+    "dashboard",
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Annie Cypcar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnieCypcar/cpu-monitor/issues"
+  },
+  "homepage": "https://github.com/AnnieCypcar/cpu-monitor#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

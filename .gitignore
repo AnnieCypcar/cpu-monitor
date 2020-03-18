@@ -1,0 +1,15 @@
+# modules
+
+client/node_modules
+server/node_modules
+
+# package-lock
+
+client/package-lock.json
+server/package-lock.json
+
+# local stuff
+
+.DS_Store
+client/.DS_Store
+server/.DS_Store
