@@ -2,8 +2,7 @@
 
 ### Description:
 
-The cpu monitor server serves up an endpoint /cpu-avg-load which provides the current cpu load
-of the server operating system over one minute along with the current timestamp. 
+The cpu monitor server serves up an endpoint /cpu-avg-load which provides the current cpu load of the server operating system over one minute along with the current timestamp.
 
 ### Start the server for development:
 
@@ -20,8 +19,8 @@ Cors is currently enabled and should allow only localhost on lower environments 
 
 ### TODO:
 
-Explore using socket and EventEmitter for long polling
-Add unit and e2e testing on a production-like environment
-Add Open Api docs describing the endpoint
+- Explore using socket and EventEmitter for long polling
+- Add unit and e2e testing on a production-like environment
+- Add Open Api docs describing the endpoint
 
 This project was built with [Express JS](https://github.com/expressjs/express).
