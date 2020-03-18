@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-color: #343434;
+  .app {
+    &.chart-container {
+      padding: 2%;
+      display: inline-block;
+      width: 96%;
+      height: 400px;
+    }
+  }
+}
